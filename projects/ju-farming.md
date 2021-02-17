@@ -1,6 +1,6 @@
 ---
 date: 2021-02-17
-thumbnail: "/uploads/22.gif"
+thumbnail: "/uploads/27.png"
 title: Ju Farming
 categories:
 - Web Development
@@ -15,13 +15,15 @@ A simple farming game showcasing the possibilities of using a powerful JavaScrip
 
 Whatever description I put it will not make it justice. [Just try the game.](https://jufarming.firebaseapp.com/)
 
-\###Video Demo
+**Video Demo**
 
 <iframe src="https://player.vimeo.com/video/338441588" width="640" height="478" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-![](/uploads/21.png)
+We had to create different colored sprite sheets for the different characters you could play. We played a lot with the size and movement of the character in order to finally get it looking right.Our little space farmer turned out great in the end!
 
-All of the graphics and different sprites we needed were created by hand in Illustrator, looking back it probably was not the most optimal software for creating low bit graphics, but you live and you learn! It was very time consuming...
+![](/uploads/26.png)![](/uploads/25.png)![](/uploads/24.png)![](/uploads/23.png)
+
+![](/uploads/22.gif)
 
 ![](/uploads/31.png)
 
@@ -30,3 +32,5 @@ All of the graphics and different sprites we needed were created by hand in Illu
 We had to create different colored sprite sheets for the different characters you could play. We played a lot with the size and movement of the character in order to finally get it looking right.Our little space farmer turned out great in the end!
 
 ![](/uploads/26.png)![](/uploads/25.png)![](/uploads/24.png)![](/uploads/23.png)
+
+![](/uploads/21.png)
