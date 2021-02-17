@@ -27,6 +27,6 @@ We had to create different colored sprite sheets for the different characters yo
 
 ![](/uploads/31.png)
 
-![](/uploads/28.png)![](/uploads/30.png)
+![](/uploads/28.png)
 
 ![](/uploads/21.png)
