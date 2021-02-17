@@ -3,27 +3,22 @@ date: 2019-05-16
 year: 2019
 title: Holter
 category: Identity
-thumbnail: "/uploads/7.jpg"
+thumbnail: "/uploads/32.png"
 categories:
 - Design
 - Branding
-- Photography
+- Packaging
 project_bg_color: ''
 project_fg_color: ''
 
 ---
-Following recent trends in culture and fashion I decided to make my own unique pieces. I wanted the brand to be heavily involved with the cyrillic characters and alphabet. The word ДУША (DUSHA) means soul in a lot of languages. This word can be interpreted in a variety of ways. The brand carries a mean post-Soviet aesthetic. After showing it to some of my contemporaries they expressed interest. So I made more shirts and hoodies for them. Clothing brands create such strong communities around their products and now I better understand why and how they these communities are formed.  
-  
-The style of this almost post apocaliptic world that was left after the Soviet Union is embraced in the photography of this project. The images are taken in everyday places where people inhabit. One of the most interesting places was the basement of a hospital, there we really saw the local community. The clothing brand is made to mostly appeal to younger audiences, mainly because they are the victims of what is left from the past regime.
+Holter is a company which makes smartwatches. This project was very interesting because it helped me understand better luxury brands and packaging. The brand needed to feel luxurious and daring. The swiss feel of the whole box helps the product feel more premium and exclusive. Good spacing between different elements makes it seem like there are more visual components than there actually are.
 
-![](/uploads/6.gif)
+![](/uploads/32.png)
 
-![](/uploads/13.jpg)
+![](/uploads/33.png)
 
-![](/uploads/3.jpg)![](/uploads/18.gif)
+![](/uploads/36.png)
 
-![](/uploads/8.gif)
-
-![](/uploads/5.gif)
-
-![](/uploads/12.jpg)
+![](/uploads/38.png)  
+![](/uploads/39.png)![](/uploads/42.png)
