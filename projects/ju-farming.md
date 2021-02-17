@@ -29,8 +29,4 @@ We had to create different colored sprite sheets for the different characters yo
 
 ![](/uploads/28.png)![](/uploads/30.png)
 
-We had to create different colored sprite sheets for the different characters you could play. We played a lot with the size and movement of the character in order to finally get it looking right.Our little space farmer turned out great in the end!
-
-![](/uploads/26.png)![](/uploads/25.png)![](/uploads/24.png)![](/uploads/23.png)
-
 ![](/uploads/21.png)
