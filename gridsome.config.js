@@ -9,14 +9,6 @@ module.exports = {
   siteDescription: "Creative technologist",
   plugins: [
     {
-      use: 'gridsome-plugin-gtag',
-      options: {
-          config: {
-              id: process.env.G-K3NQCE8MPC,
-          },
-      },
-  },
-    {
       use: 'gridsome-plugin-gtm',
       options: {
         id: 'G-K3NQCE8MPC',
