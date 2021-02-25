@@ -9,6 +9,22 @@ module.exports = {
   siteDescription: "Creative technologist",
   plugins: [
     {
+      use: 'gridsome-plugin-gtag',
+      options: {
+          config: {
+              id: process.env.G-K3NQCE8MPC,
+          },
+      },
+  },
+    {
+      use: 'gridsome-plugin-gtm',
+      options: {
+        id: 'G-K3NQCE8MPC',
+        enabled: true,
+        debug: true
+      }
+    },
+    {
       use: "@gridsome/source-filesystem",
       options: {
         path: "projects/**/*.md",
@@ -31,19 +47,6 @@ module.exports = {
           externalLinksRel: ["nofollow", "noopener", "noreferrer"]
         }
       }
-    },
-    {
-      use: '@gridsome/plugin-google-analytics',
-      options: {
-        id: 'G-K3NQCE8MPC'
-      },
-      {
-        use: 'gridsome-plugin-gtag',
-        options: {
-            config: {
-                id: process.env.G-K3NQCE8MPC,
-            },
-        },
     }
   ],
   transformers: {
