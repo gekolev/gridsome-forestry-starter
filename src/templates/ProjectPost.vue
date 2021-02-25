@@ -1,4 +1,5 @@
 <template>
+
   <Layout>
     <div class="project">
 
@@ -63,6 +64,7 @@ export default {
     }
   }
 }
+
 </script>
 
 <style scoped>

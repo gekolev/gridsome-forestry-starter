@@ -19,6 +19,7 @@
 </template>
 
 <script>
+
 export default {
   data() {
     return {
@@ -28,6 +29,9 @@ export default {
   }
 }
 </script>
+
+<script data-goatcounter="https://gekolev.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 
 <style scoped>
 .header {
