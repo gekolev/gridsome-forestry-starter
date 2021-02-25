@@ -31,6 +31,19 @@ module.exports = {
           externalLinksRel: ["nofollow", "noopener", "noreferrer"]
         }
       }
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'G-K3NQCE8MPC'
+      },
+      {
+        use: 'gridsome-plugin-gtag',
+        options: {
+            config: {
+                id: process.env.G-K3NQCE8MPC,
+            },
+        },
     }
   ],
   transformers: {
