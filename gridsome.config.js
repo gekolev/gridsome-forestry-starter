@@ -9,6 +9,14 @@ module.exports = {
   siteDescription: "Creative technologist",
   plugins: [
     {
+      use: 'gridsome-plugin-gtm',
+      options: {
+        id: 'GTM-MKRQ8QX',
+        enabled: true,
+        debug: true
+      }
+    },
+    {
       use: "@gridsome/source-filesystem",
       options: {
         path: "projects/**/*.md",
