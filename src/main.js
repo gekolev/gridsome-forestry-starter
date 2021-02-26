@@ -11,7 +11,9 @@ export default function(Vue, { head }) {
   };
   
   head.script.push({
-    src:"<script data-goatcounter='https://gekolev.goatcounter.com/count' async src='//gc.zgo.at/count.js'></script>",
+    src:"//gc.zgo.at/count.js'></script>",
+    "data-goatcounter":'https://gekolev.goatcounter.com/count',
+    async: true,
     body: true})
 
 }
