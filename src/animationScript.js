@@ -1,0 +1,1 @@
+ScrollReveal().reveal('.anim',{ delay: 2000 });

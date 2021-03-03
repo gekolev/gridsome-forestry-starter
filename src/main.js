@@ -16,4 +16,8 @@ export default function(Vue, { head }) {
     async: true,
     body: true})
 
+    head.script.push({
+      src:"https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js",
+      async: true})
+
 }
