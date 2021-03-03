@@ -36,45 +36,46 @@ specialisation in New Media Design</h4> <br> <br> <i>American College Arcus 2013
               <div class="left"><h2>Experience</h2></div>
               <div class="right"><i>UI/UX Internship</i> <br> <h4 class="tight">9 Week intership at <a href="https://ny.se/">NY</a> - Full Service Creative Agency</h4> <br> <i>Graphic Designer</i> <br> <h4 class="tight">Designer and board member of Students of Sustainable Action</h4><br> <i>Cient-Side TA</i> <br> <h4 class="tight">Teacher Assistant in computer lab sessions</h4> </div>
             </div>
-            
+            <br>
+            <br>
             <h2> Things I have used</h2>
             <h3>Tech Stack:</h3>
       <div class="box">
         <div class="skill">
-          <h5>HTML</h5> 
+          <p class=items>HTML</p> 
         </div>
         <div class="skill">
-          <h5>CSS/SASS/SCSS</h5> 
+          <p class=items>CSS/SASS/SCSS</p> 
         </div>
         <div class="skill">
-          <h5>JavaScript</h5> 
+          <p class=items>JavaScript</p> 
         </div>
         <div class="skill">
-          <h5>PHP</h5> 
+          <p class=items>PHP</p> 
         </div>
         <div class="skill">
-          <h5>WordPress</h5> 
+          <p class=items>WordPress</p> 
         </div>
         <div class="skill">
-          <h5>Three.js</h5> 
+          <p class=items>Three.js</p> 
         </div>
         <div class="skill">
-          <h5>Vue.js</h5> 
+          <p class=items>Vue.js</p> 
         </div>
         <div class="skill">
-          <h5>Gridsome</h5> 
+          <p class=items>Gridsome</p>
         </div>
         <div class="skill">
-          <h5>Forestry CMS</h5> 
+          <p class=items>Forestry CMS</p> 
         </div>
         <div class="skill">
-          <h5>Markdown</h5> 
+          <p class=items>Markdown</p> 
         </div>
         <div class="skill">
-          <h5>Lottie Animations</h5> 
+          <p class=items>Lottie Animations</p> 
         </div>
         <div class="skill">
-          <h5>Gulp</h5> 
+          <p class=items>Gulp</p> 
         </div>
       </div>
         <br>
@@ -82,16 +83,22 @@ specialisation in New Media Design</h4> <br> <br> <i>American College Arcus 2013
       <h3>Design Stack:</h3>
       <div class="box">
         <div class="skill">
-          <h5>Illustrator</h5> 
+          <p class=items>Illustrator</p>
         </div>
         <div class="skill">
-          <h5>Photoshop</h5> 
+          <p class=items>Photoshop</p> 
         </div>
         <div class="skill">
-          <h5>InDesign</h5> 
+          <p class=items>InDesign</p>
         </div>
         <div class="skill">
-          <h5>Figma</h5> 
+          <p class=items>Figma</p> 
+        </div>
+        <div class="skill">
+          <p class=items>After Effects</p> 
+        </div>
+        <div class="skill">
+          <p class=items>Premiere</p> 
         </div>
       </div>
 
@@ -137,7 +144,7 @@ export default {}
   height: auto;
 }
 
-h5 {
+.items {
   margin:auto;
   margin-top: 5%;
 }
