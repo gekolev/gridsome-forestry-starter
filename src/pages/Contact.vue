@@ -4,7 +4,7 @@
 
       <div class="contact-header">
 
-<div class="circular--portrait">
+<div id="shake" class="circular--portrait">
           <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/92e43377589717.603fe72c4e08a.jpg"/>
 </div>
         <h1 class="contact-title">About me</h1>
@@ -167,6 +167,37 @@ export default {}
   font-size: 4rem;
   margin: 0 0 4rem 0;
   padding: 0;
+}
+
+#shake:hover{
+  animation-play-state: running;
+	animation-name: shake;
+	animation-duration: 400ms;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+  10% {
+    transform: translate(-1px, 0.5px) rotate(1deg); }
+  20% {
+    transform: translate(-0.5px, -0.5px) rotate(-0.5deg); }
+  30% {
+    transform: translate(2px, 0.5px) rotate(0.5deg); }
+  40% {
+    transform: translate(0.5px, 0px) rotate(0.25deg); }
+  50% {
+    transform: translate(1px, -1px) rotate(1deg); }
+  60% {
+    transform: translate(-1px, -0.5px) rotate(-0.5deg); }
+  70% {
+    transform: translate(0.5px, 1px) rotate(1deg); }
+  80% {
+    transform: translate(-1px, 0.5px) rotate(-2.2deg); }
+  90% {
+    transform: translate(0.5px, -0.5px) rotate(0.5deg); }
+  0%, 100% {
+    transform: translate(0, 0) rotate(0); } 
 }
 
 @media (max-width: 860px) {
