@@ -1,6 +1,6 @@
 <template>
     <header class="header" :class="{sticky: $route.path === '/' || $route.path.includes('/projects/')}">
-        <div class="container">
+        <div class="container" id="bigger">
             <div class="left">
                 <g-link :to="{ name: 'home' }" class="home-link">
                     <img 
@@ -118,6 +118,7 @@ export default {
     border-color: inherit;
 }
 
+#bigger{ max-width: 1700px;}
 
 #home {
   color: blue;
