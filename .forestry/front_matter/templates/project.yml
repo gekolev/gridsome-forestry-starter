@@ -36,14 +36,10 @@ fields:
     color_format: Hex
   label: Foreground color
 pages:
-- projects/3d-graff.md
-- projects/chelsea-landmark.md
 - projects/cubes.md
 - projects/holter.md
-- projects/ios-concept.md
 - projects/ju-farming.md
 - projects/kazarma.md
 - projects/line-art.md
 - projects/pique-nique.md
 - projects/secondbanana.md
-- projects/sunk.md
