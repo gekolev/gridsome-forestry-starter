@@ -36,6 +36,7 @@ fields:
   label: Author
   default: Nichlas W. Andersen
 pages:
+- journal/animations.md
 - journal/boyko-borisov.md
 - journal/profile-picture.md
 - journal/stamps.md
