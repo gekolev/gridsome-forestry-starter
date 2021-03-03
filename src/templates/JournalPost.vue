@@ -2,6 +2,7 @@
   <Layout>
     <div class="journal">
       <div class="container journal-container">
+                <g-link class="nav__link" to="/journal/" style="text-decoration:none; font-size:2em;">&#8592;</g-link>
 
         <div class="journal-header">
           <h1 v-html="$page.post.title" class="journal-title" />
@@ -22,6 +23,8 @@
         </div>
 
         <JournalContent :content="$page.post.content" />
+
+        <g-link class="nav__link" to="/" style="text-decoration:none; font-size:2em;">&#8592;</g-link>
 
       </div>
     </div>

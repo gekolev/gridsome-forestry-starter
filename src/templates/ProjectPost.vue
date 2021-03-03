@@ -7,6 +7,8 @@
 
         <div class="project-header">
 
+                <g-link class="nav__link" to="/" style="text-decoration:none; font-size:2em;">&#8592;</g-link>
+
            <!-- Back to home page / index button - include at end of poject maybe too... needs to be in articles too - go back to articles page.
              <g-link class="nav__link" to="/index" style="text-decoration:none; text-size:5em;">&#8592;</g-link> -->
           

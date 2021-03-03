@@ -11,8 +11,8 @@
                 </g-link>
             </div>
             <nav class="nav right">
-                <g-link class="nav__link" to="/journal">Journal</g-link>
-                <g-link class="nav__link" to="/contact">Contact</g-link>
+                <g-link class="nav__link" to="/journal/">Journal</g-link>
+                <g-link class="nav__link" to="/contact/" id="shake">About</g-link>
             </nav>
         </div>
     </header>
@@ -32,6 +32,39 @@ export default {
 
 
 <style scoped>
+
+
+#shake:hover{
+  animation-play-state: running;
+	animation-name: shake;
+	animation-duration: 400ms;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+  10% {
+    transform: translate(-1px, 0.5px) rotate(1deg); }
+  20% {
+    transform: translate(-0.5px, -0.5px) rotate(-0.5deg); }
+  30% {
+    transform: translate(2px, 0.5px) rotate(0.5deg); }
+  40% {
+    transform: translate(0.5px, 0px) rotate(0.25deg); }
+  50% {
+    transform: translate(1px, -1px) rotate(1deg); }
+  60% {
+    transform: translate(-1px, -0.5px) rotate(-0.5deg); }
+  70% {
+    transform: translate(0.5px, 1px) rotate(1deg); }
+  80% {
+    transform: translate(-1px, 0.5px) rotate(-2.2deg); }
+  90% {
+    transform: translate(0.5px, -0.5px) rotate(0.5deg); }
+  0%, 100% {
+    transform: translate(0, 0) rotate(0); } 
+}
+
 .header {
     position: relative;
     height: 6rem;
@@ -71,15 +104,23 @@ export default {
     padding-bottom: 4px;
     border-bottom: 1px solid;
     border-color: transparent;
-    transition: border 0.15s;
+    transition: border 0.3s;
 }
 .nav > *:last-of-type {
     margin: 0;
 }
 .nav > *:hover {
     border-color: inherit;
+    
 }
 .nav > .active {
     border-color: inherit;
+}
+
+
+#home {
+  color: blue;
+  border-bottom: 0px;
+  text-decoration: none;
 }
 </style>

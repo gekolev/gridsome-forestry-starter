@@ -22,7 +22,7 @@ export default {
     max-width: 100%;
     margin: 0 auto;
     padding: 4rem 0 8rem 0;
-    font-family: serif;
+    font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .hero-title {
