@@ -57,6 +57,7 @@ query ProjectPost ($path: String!) {
 
 <script>
 export default {
+  
   metaInfo () {
     return {
       title: this.$page.post.title,

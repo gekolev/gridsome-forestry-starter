@@ -40,6 +40,7 @@ import ProjectsGrid from "@/components/ProjectsGrid"
 import LatestJournals from "@/components/LatestJournals"
 
 export default {
+  
   components: {
     Hero,
     ProjectsGrid,

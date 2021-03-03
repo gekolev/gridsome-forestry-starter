@@ -20,4 +20,8 @@ export default function(Vue, { head }) {
       src:"https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js",
       async: true})
 
+      head.script.push({
+        src:"https://raw.githubusercontent.com/gekolev/gridsome-forestry-starter/master/src/animationScript.js",
+        async: true,
+        body: true})
 }
