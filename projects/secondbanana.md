@@ -20,7 +20,7 @@ The style of this almost post apocaliptic world that was left after the Soviet U
 
 ![](/uploads/13.jpg)
 
-![](/uploads/3.jpg)![](/uploads/18.gif)
+![](/uploads/3.jpg)
 
 ![](/uploads/8.gif)
 
