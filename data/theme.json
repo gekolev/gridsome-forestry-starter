@@ -1,8 +1,8 @@
 {
-  "footer": "Copyright &copy; 2021",
+  "footer": "Copyright &copy; 2021 Build with Gridsome & Vue.js",
   "dark_mode": false,
   "site_name": "gekolev",
   "site_description": "Multimedia Designer",
-  "hero_title": "Design, development and everything else.",
-  "hero_subtitle": "Currenlty looking for new and lucrative ways to acquire street cred."
+  "hero_title": "Design &amp; Development",
+  "hero_subtitle": "Hi, my name is Georgi and I make cool shit."
 }
