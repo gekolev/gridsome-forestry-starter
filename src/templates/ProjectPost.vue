@@ -35,9 +35,9 @@
         </div>
 
         <div v-html="$page.post.content" class="content" />
-
+          <g-link class="nav__link" to="/" style="text-decoration:none; font-size:2em;">&#8592;</g-link>
       </div>
-
+      
     </div>
   </Layout>
 </template>
